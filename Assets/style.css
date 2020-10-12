@@ -1,0 +1,49 @@
+.container {
+     background-color: lightgray;
+}
+.navbar-brand {
+     font-weight: bold;
+     font-size: 50px;
+}
+/* .hide {
+     display: none;
+} */
+
+form {
+     margin-bottom: 20px;
+}
+/* ul {
+     border: 1px solid gray;
+} */
+/* ul.list-group {
+     border-bottom: 1px solid gray;
+} */
+
+#msg.error {
+     visibility: visible;
+     font-size: larger;
+}
+
+#msg.error {
+     color: #e6252c;
+}
+
+.col-xs-12.col-md-12.col-xs-12 {
+     border: 1px solid lightgray;
+}
+
+#button:hover {
+     border-color: darkgreen;
+}
+.btn-primary {
+     color: #fff;
+     background-color: #007bff;
+     border-color: #007bff;
+}
+.fiveday {
+     border: none;
+}
+.result {
+     border: 1px solid black;
+     margin-bottom: 20px;
+}
