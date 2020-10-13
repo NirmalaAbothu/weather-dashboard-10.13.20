@@ -8,7 +8,7 @@
 
 ![alt text](Assets/Images/image1.PNG)
 
-![alt text](Assets/Images/image2.PNG)
+![alt text](Assets/Images/image3.PNG)
 
 Implemented the code for weather dashboard application.
 Once user open the application,the application will act as below:
