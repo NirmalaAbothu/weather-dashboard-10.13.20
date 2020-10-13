@@ -22,26 +22,25 @@
     <section class="container">
       <!-- first row -->
       <section class="row">
-        <!-- first column -->
+        <!-- first column for input text box for search the city-->
         <section class="col-xs-4 col-md-4 col-xs-12">
           <form id="city-search">
             <section class="form-group w-75">
-            <div class="input-group">
+            <section class="input-group">
               <input type="text" class="form-control" placeholder="Enter city" id="txtSearch"/>
-              <div class="input-group-btn">
+              <section class="input-group-btn">
+                <!-- submit button -->
                 <button class="btn btn-primary" id="button" type="submit">
                   <span class="glyphicon glyphicon-search"></span>
-                </button>
-                
-              </div>
-              </div>
+                </button>                
+              </section>
+              </section>
             </section>
               </form>
+              <!-- msg section to display error message -->
               <section id="msg"></section>
-              
-                <ul class="list-group"></ul>
-    
-              
+              <!-- unorder list to display search cities -->
+                <ul class="list-group"></ul>    
           <!-- end of first column -->
         </section>
         <!-- 2nd column in row -->
@@ -49,53 +48,32 @@
           <!-- first row in 2nd column -->
           <section class="row result">
             <section class="col-xs-12 col-md-12 col-xs-12 temperature">
-              <!-- Retrieved data will be dumped here -->
-             
-              <h1 class="city"><span id="currentDay"></span></h1>
+              <!--current city retrieved data will be displayed here -->                           
+              <h2><span id="city-name"></span>
+              <img id="current-pic" src="" alt=""></h2>
               <h4><span class="wind"></span><h4>
               <h4><span class="humidity"></span></h4>
               <h4><span class="temp"></span></h4>
-              <h4><span class="uvindex"></span></h4>
-         
+              <h4><span class="uvindex"></span></h4>         
               </section>
           </section>
           <!-- 2nd row in 2nd column -->
-          <section class="row fiveday">
-            <section class="col-xs-12 col-md-12 col-xs-12">
-      <h3>5-Day Forecast</h3>
+          <section class="row">
+            <section class="col-md-12 col-xs-12">
+              <!-- 5 day forecast will be displayed here -->
+      <h3 class="hide" id="5day">5-Day Forecast</h3>
+      <section id="forecast" class="row"> 
+      </section> 
+      <!-- End row -->
             </section>
           </section>
-          <!-- 3rd row in column -->
-          <section class="row">
-            <!-- samplecode -->
-            
-            
-              <!-- <div class="col forecast"></div> -->
-              
-              <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
-              <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
-              <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
-              <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
-              <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
-          
-            <!-- samplecode -->
-            
-                  
-                
-               
-                  
-                
-               
-          
-        
-      </section> 
-          </section>
+          <!-- 3rd row in column -->     
 <!-- end section of 2nd column -->
         </section>
 <!-- end section of first row -->
       </section>
       <!-- end section of container class -->
-    <!-- </section>     -->
+    </section>     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./Assets/script.js" ></script>

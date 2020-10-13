@@ -5,19 +5,17 @@
      font-weight: bold;
      font-size: 50px;
 }
-/* .hide {
+
+.show {
+     display: block;
+}
+.hide {
      display: none;
-} */
+}
 
 form {
      margin-bottom: 20px;
 }
-/* ul {
-     border: 1px solid gray;
-} */
-/* ul.list-group {
-     border-bottom: 1px solid gray;
-} */
 
 #msg.error {
      visibility: visible;
@@ -28,10 +26,6 @@ form {
      color: #e6252c;
 }
 
-.col-xs-12.col-md-12.col-xs-12 {
-     border: 1px solid lightgray;
-}
-
 #button:hover {
      border-color: darkgreen;
 }
@@ -40,10 +34,7 @@ form {
      background-color: #007bff;
      border-color: #007bff;
 }
-.fiveday {
-     border: none;
-}
 .result {
-     border: 1px solid black;
+     border: 1px solid lightgray;
      margin-bottom: 20px;
 }
